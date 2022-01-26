@@ -1,0 +1,105 @@
+.navbar {
+    border: 0;
+    background-color: grey;
+    border-radius: 0;
+}
+
+.navbar-header {
+    background-color: grey;
+    position: relative;
+}
+
+.navbar-brand {
+    margin: 20px 0px;
+}
+
+.navbar-brand span{
+    font-weight: bold;
+    font-size: 32px;
+    color: #000;
+    margin-left: 20px;
+}
+
+#toggle-button {
+    border-color: #000;
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+}
+
+#toggle-button .icon-bar {
+    background-color: #000;
+}
+
+#toggle-button:active,  #toggle-button:hover, #toggle-button:focus {
+    border-color: rgb(204, 204, 204);
+    background-color: grey;
+}
+
+#toggle-button:active .icon-bar, #toggle-button:hover .icon-bar, #toggle-button:focus .icon-bar {
+    background-color: rgb(204, 204, 204);
+}
+
+.menu-title {
+    font-weight: bold;
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+
+.food {
+    background-color: grey;
+}
+
+.food > h3 {
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Large devices only */
+@media (min-width: 1200px) {
+
+}
+
+/* Medium devices only */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+
+/* Small devices only */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Extra small devices only */
+@media  (max-width: 767px) {
+    .navbar-brand{
+        font-size: 40px;
+        margin: 20px 30px;
+    }
+
+    #bs-example-navbar-collapse-1 {
+        background-color: rgb(194, 194, 194);
+        text-align: center;
+        padding: 0;
+    }
+    
+    #bs-example-navbar-collapse-1 ul {
+        margin: 0;
+    }
+    
+    #bs-example-navbar-collapse-1 li {
+        border-width: 1px;
+        border-color: #000;
+        border-style: solid;
+    }
+
+    .food {
+        background-color: grey;
+    }
+
+    .container {
+        width: 80%;
+    }
+
+}
